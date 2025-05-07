@@ -39,8 +39,15 @@ export function useGlitch(
       iterations++;
       if (iterations > maxIterations) {
         clearInterval(timer);
+
+        // 아직 글자 남았으면 다음 인덱스로
         if (currentIndex < targetText.length - 1) {
           setCurrentIndex((i) => i + 1);
+        } else {
+          // 마지막 글자도 확실히 목표 문자로 고정
+          setDisplayedText(Array.from(targetText));
+          // 인덱스를 넘겨 훅이 finished 상태로 인식하게끔
+          setCurrentIndex(targetText.length);
         }
       }
     }, intervalMs);
@@ -48,5 +55,9 @@ export function useGlitch(
     return () => clearInterval(timer);
   }, [currentIndex, targetText, maxIterations, intervalMs]);
 
-  return { displayedText, finished: currentIndex >= targetText.length };
+  return {
+    displayedText,
+    // currentIndex가 길이 이상이면 finished
+    finished: currentIndex >= targetText.length,
+  };
 }
