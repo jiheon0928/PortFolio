@@ -12,10 +12,10 @@ export const colors: string[] = [
 export const projectLinks: ProjectCardProps[] = [
   {
     image: "/textures/card/chat.png",
-    sitename: "Maëlan",
+    sitename: "RealTime-chat-site",
     explanation:
-      "HTML DataSet, GSAP 애니메이션, SCSS 전처리, 다양한 스크립트 효과를 활용해 인터랙티브 사이트를 구현한 프로젝트입니다.",
-    tags: ["DataSet", "SCSS", "GSAP", "JavaScript"],
+      "WebSocket 기반 실시간 메시징과 JWT 인증을 통해 사용자 간 즉시 소통이 가능한 채팅 애플리케이션을 구현했습니다.",
+    tags: ["JavaScript", "Next.js", "Nest.js", "", "Socket", "JWT"],
     site: "http://localhost:3000/login",
     velog: "https://velog.io/@yourname/maelan-project",
     github: "https://github.com/jiheon0928/openChat",
