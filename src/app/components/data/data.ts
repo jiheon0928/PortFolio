@@ -21,14 +21,14 @@ export const projectLinks: ProjectCardProps[] = [
     github: "https://github.com/jiheon0928/openChat",
   },
   {
-    image: "/textures/project2.png",
-    sitename: "PhotoGallery",
+    image: "/textures/card/hyendai.png",
+    sitename: "현대자동차",
     explanation:
       "React + TypeScript + Tailwind CSS로 만든 사진 갤러리 앱. Masonry 레이아웃과 모달 뷰 기능 포함.",
-    tags: ["DataSet", "SCSS", "GSAP", "JavaScript"],
-    site: "https://photogallery.example.com",
+    tags: ["HTML", "CSS", "JavaScript"],
+    site: "http://127.0.0.1:5500/index.html",
     velog: "https://velog.io/@yourname/photogallery",
-    github: "https://github.com/yourname/photogallery",
+    github: "https://github.com/jiheon0928/HyundaiCarPage/tree/master",
   },
   {
     image: "/textures/project3.png",
