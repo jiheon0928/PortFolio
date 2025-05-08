@@ -11,14 +11,14 @@ export const colors: string[] = [
 
 export const projectLinks: ProjectCardProps[] = [
   {
-    image: "/textures/project1.png",
+    image: "/textures/card/chat.png",
     sitename: "Maëlan",
     explanation:
       "HTML DataSet, GSAP 애니메이션, SCSS 전처리, 다양한 스크립트 효과를 활용해 인터랙티브 사이트를 구현한 프로젝트입니다.",
     tags: ["DataSet", "SCSS", "GSAP", "JavaScript"],
-    site: "https://maelan.example.com",
+    site: "http://localhost:3000/login",
     velog: "https://velog.io/@yourname/maelan-project",
-    github: "https://github.com/yourname/maelan-project",
+    github: "https://github.com/jiheon0928/openChat",
   },
   {
     image: "/textures/project2.png",
