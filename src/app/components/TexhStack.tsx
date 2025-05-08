@@ -4,12 +4,13 @@ import React from "react";
 import Image from "next/image";
 
 const techImages = [
-  "/textures/skilles/java.png",
   "/textures/skilles/javascript.png",
-  "/textures/skilles/nest.png",
-  "/textures/skilles/node.png",
-  "/textures/skilles/springboot.png",
   "/textures/skilles/typescript.png",
+  "/textures/skilles/node.png",
+  "/textures/skilles/next.png",
+  "/textures/skilles/nest.png",
+  "/textures/skilles/java.png",
+  "/textures/skilles/springboot.png",
 ];
 
 export default function TechStack() {

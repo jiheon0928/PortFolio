@@ -14,7 +14,8 @@ export default function ProjectList() {
         {projectLinks.map((card: ProjectCardProps, idx: number) => (
           <div
             key={idx}
-            className="bg-transparent rounded-lg overflow-hidden shadow-md flex flex-col">
+            className="bg-transparent rounded-lg overflow-hidden shadow-md flex flex-col"
+          >
             {/* 카드 이미지 */}
             <div className="relative w-full h-48">
               <Image
@@ -39,7 +40,8 @@ export default function ProjectList() {
                 {card.tags?.map((tag, i) => (
                   <span
                     key={i}
-                    className="px-2 py-1 text-xs bg-gray-600 text-white rounded">
+                    className="px-2 py-1 text-xs bg-gray-600 text-white rounded"
+                  >
                     {tag}
                   </span>
                 ))}
@@ -51,21 +53,24 @@ export default function ProjectList() {
                   href={card.site}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-500">
+                  className="px-4 py-2 bg-white text-black font-bold rounded-md hover:bg-gray-400"
+                >
                   GO SITE
                 </Link>
                 <Link
                   href={card.velog}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-100">
+                  className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-100"
+                >
                   velog
                 </Link>
                 <Link
                   href={card.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-100">
+                  className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-100"
+                >
                   github
                 </Link>
               </div>

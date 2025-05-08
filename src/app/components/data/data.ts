@@ -15,7 +15,7 @@ export const projectLinks: ProjectCardProps[] = [
     sitename: "RealTime-chat-site",
     explanation:
       "WebSocket 기반 실시간 메시징과 JWT 인증을 통해 사용자 간 즉시 소통이 가능한 채팅 애플리케이션을 구현했습니다.",
-    tags: ["JavaScript", "Next.js", "Nest.js", "", "Socket", "JWT"],
+    tags: ["JavaScript", "Next.js", "Nest.js", "Socket", "JWT"],
     site: "http://localhost:3000/login",
     velog: "https://velog.io/@yourname/maelan-project",
     github: "https://github.com/jiheon0928/openChat",
