@@ -21,6 +21,16 @@ export const projectLinks: ProjectCardProps[] = [
     github: "https://github.com/jiheon0928/openChat",
   },
   {
+    image: "/textures/card/whiteclinic.png",
+    sitename: "WhiteClinic",
+    explanation:
+      "웹사이트 클론 프로젝트로, 화이트클리닉 공식 웹사이트를 모티브로 반응형 레이아웃과 동적 UI 요소를 구현하여 사용자 친화적인 경험을 제공했습니다.",
+    tags: ["Next.Js", "Nest.Js", "mySQL", "JWT"],
+    site: "https://final-white-clinic.vercel.app/",
+    velog: "https://velog.io/@yourname/maelan-project",
+    github: "https://github.com/jiheon0928/final_white_clinic",
+  },
+  {
     image: "/textures/card/nanymousaa.png",
     sitename: "NONYMOUSAA",
     explanation:
@@ -36,7 +46,7 @@ export const projectLinks: ProjectCardProps[] = [
     explanation:
       "HTML, CSS, JavaScript로 현대자동차 공식 웹사이트를 모티브로 반응형 레이아웃과 동적 UI 요소를 구현하여 사용자 친화적인 경험을 제공했습니다.",
     tags: ["HTML", "CSS", "JavaScript"],
-    site: "http://127.0.0.1:5500/index.html",
+    site: "https://hyundai-car-page.vercel.app/",
     velog: "https://velog.io/@yourname/photogallery",
     github: "https://github.com/jiheon0928/HyundaiCarPage/tree/master",
   },

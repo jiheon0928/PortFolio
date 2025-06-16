@@ -1,6 +1,7 @@
 // src/app/page.tsx
 import ProjectCart from "./components/card/ProjectCard";
 import Glitch from "./components/Glitch";
+import Introduce from "./components/Introduce";
 import TechStack from "./components/TexhStack";
 
 export default function Home() {
@@ -19,6 +20,11 @@ export default function Home() {
       {/* 3rd section */}
       <section className="sticky top-0 h-screen flex items-center justify-center bg-gray-100 z-20">
         <ProjectCart />
+      </section>
+
+      {/* 4th section */}
+      <section className="sticky top-0 h-screen flex items-center justify-center bg-gray-100 z-20">
+        <Introduce />
       </section>
     </main>
   );
