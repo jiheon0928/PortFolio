@@ -15,7 +15,7 @@ export const projectLinks: ProjectCardProps[] = [
     sitename: "RealTime-chat-site",
     explanation:
       "WebSocket 기반 실시간 메시징과 JWT 인증을 통해 사용자 간 즉시 소통이 가능한 채팅 애플리케이션을 구현했습니다.",
-    tags: ["JavaScript", "Next.js", "Nest.js", "Socket", "JWT", "mySQL"],
+    tags: ["JavaScript", "Next.js", "Nest.js", "AWS", "mySQL"],
     site: "https://open-chat-sandy.vercel.app/login",
     velog: "https://velog.io/@yourname/maelan-project",
     github: "https://github.com/jiheon0928/openChat",
@@ -25,7 +25,7 @@ export const projectLinks: ProjectCardProps[] = [
     sitename: "WhiteClinic",
     explanation:
       "웹사이트 클론 프로젝트로, 화이트클리닉 공식 웹사이트를 모티브로 반응형 레이아웃과 동적 UI 요소를 구현하여 사용자 친화적인 경험을 제공했습니다.",
-    tags: ["Next.Js", "Nest.Js", "mySQL", "JWT"],
+    tags: ["Next.Js", "Nest.Js", "mySQL", "AWS"],
     site: "https://final-white-clinic.vercel.app/",
     velog: "https://velog.io/@yourname/maelan-project",
     github: "https://github.com/jiheon0928/final_white_clinic",
