@@ -32,16 +32,6 @@ export const projectLinks: ProjectCardProps[] = [
     github: "https://github.com/jiheon0928/final_white_clinic",
   },
   {
-    image: "/textures/card/nanymousaa.png",
-    sitename: "NONYMOUSAA",
-    explanation:
-      "Next.js 기반 모자 쇼핑몰 클론 프로젝트로, 카테고리별 페이지 이동 기능과 Firebase를 활용한 장바구니 시스템을 구현했습니다.",
-    tags: ["JavaScript", "next.js", "firebase,"],
-    site: "https://nonymousa-96tm.vercel.app/main",
-    velog: "https://velog.io/@yourname/chatspace",
-    github: "https://github.com/jiheon0928/NONYMOUSA",
-  },
-  {
     image: "/textures/card/hyendai.png",
     sitename: "현대자동차",
     explanation:
